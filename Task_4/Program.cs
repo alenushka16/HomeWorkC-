@@ -42,8 +42,9 @@ Console.ReadLine();*/
 
 //Задача 3. Напишите программу, которая задает массив из m элементов и выводит их на экран.
 
-int[] CreateArray(int size)
-
+/*int[] CreateArray(int size)
+{
+    int[] array = new int[size];
     for(int i = 0; i < size; i++)
     {
          Console.Write("Введите элемент массива: ");
@@ -51,7 +52,7 @@ int[] CreateArray(int size)
     }
     
     return array; 
-
+}
 void PrintArray(int [] newArray)
 {
     for(int i = 0; i < newArray.Length; i++)
@@ -61,6 +62,5 @@ void PrintArray(int [] newArray)
 Console.Write("Введите размер массива: ");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] YourArray = CreateArray(size);
-Console.ForegroundColor = ConsoleColor.Green;
 PrintArray(YourArray);
-Console.ReadLine();
+Console.ReadLine();*/
