@@ -15,8 +15,8 @@ int number2 = Convert.ToInt32(Console.ReadLine());
     else
     {
         Console.WriteLine($"MinNumber = {number1}");
-    } 
-    */
+    } */
+    
 
 //Задача 2. Напишите программу, которая принимает на вход три числа и выдает максимальное из этих чисел.
 
