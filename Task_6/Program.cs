@@ -12,7 +12,7 @@
 }
 
 Console.Write("How many numbers do you want to enter: ");
-int number = Convert.ToDouble(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 int result = PositiveNum(number);
 Console.WriteLine($"Numbers greater than 0 = {result}");
 Console.ReadLine();*/
@@ -20,7 +20,7 @@ Console.ReadLine();*/
 //Задача 2. Напишите программу, которая найдет точку пересечения двух прямых, заданных уравнениями
 // y=k1*x+b1, y=k2*x+b2, значения b1,k1,b2 и k2 задает пользователь
 
-void CrossPoint(double b1, double b2, double k1, double k2) //тип метода войд НазваниеМетода(аргументы, которые вводит пользователь)
+/*void CrossPoint(double b1, double b2, double k1, double k2) //тип метода войд НазваниеМетода(аргументы, которые вводит пользователь)
 {
     double x = (b2-b1)/(k1-k2); 
     double y = k1*x+b1;
@@ -36,4 +36,4 @@ Console.WriteLine("Input k1: ");
 double k1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Input k2: ");
 double k2 = Convert.ToDouble(Console.ReadLine());
-CrossPoint(b1,b2,k1,k2);
+CrossPoint(b1,b2,k1,k2);*/
