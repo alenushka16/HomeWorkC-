@@ -32,11 +32,14 @@ Console.WriteLine("The sum of natural elements in the interval from m to n: " + 
 
 /*int Aс(int m, int n)
 {
-    if (m == 0) return n + 1;
-    if (m > 0 && n == 0) return Aс(m - 1, 1);
-    if (m > 0 && n > 0) return Aс(m - 1, Aс(m,n - 1));
+    if (m == 0) 
+        return n + 1;
+    if (m > 0 && n == 0) 
+        return Aс(m - 1, 1);
+    if (m > 0 && n > 0)
+        return Aс(m - 1, Aс(m,n - 1));
     return Aс(m,n); 
-}                  
+} 
 
 Console.Write("Input non-negative number m: ");
 int m = Convert.ToInt32(Console.ReadLine());
@@ -44,4 +47,5 @@ int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input non-negative number n: ");
 int n = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine($"m = {m}, n = {n} -> Aс(m,n) = {(m,n)}");     */ 
+
+Console.WriteLine($"m = {m}, n = {n} -> Aс(m,n) = {(m,n)}");    */
